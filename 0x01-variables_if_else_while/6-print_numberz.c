@@ -1,9 +1,9 @@
 #include <stdio.h>
 /**
- * main-this is the main
+ * main - Short description, single line
  * a blank line
- * Description: this is the description of function
- * Return:description of the return value
+ * Description: Longer description of the function)?
+ * Return: Description of the returned value
  */
 
 int main(void)
