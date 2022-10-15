@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 /**
  * main - Short description, single line
  * a blank line
@@ -12,7 +13,7 @@ int main(void)
 
 	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-		putchar(ch);
+	putchar(ch);
 	}
 	putchar('\n');
 
