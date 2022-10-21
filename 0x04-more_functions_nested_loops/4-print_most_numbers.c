@@ -1,21 +1,21 @@
-#include <stdio.h>
 #include "main.h"
-
 /**
 *print_most_numbers - check the code
+*
 *Return: Always 0.
 */
 
 void print_most_numbers(void)
 {
-int n;
+int ch;
 
-for (n = 48; n < 58; n++)
+for (ch = '0'; ch <= '9'; ch++)
 {
-if ((n !=  50) || (n != 52))
+if (ch ==  '2' || ch == '4')
 {
-putchar(n);
+continue;
 }
+_putchar(ch);
 }
-putchar(10);
+_putchar('\n');
 }
