@@ -1,4 +1,11 @@
+#ifndef MAIN_H
 #define MAIN_H
+
+/*
+* file - main.h
+* Author: nusaiba ilu
+*Desc: header contains prototypes for all functions
+*/
 
 int _isupper(int c);
 int _isdigit(int c);
@@ -11,5 +18,4 @@ void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
 int _putchar(char c);
-
 #endif
