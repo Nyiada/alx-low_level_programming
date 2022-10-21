@@ -14,5 +14,5 @@ for (n = 48; n < 58; n++)
 _putchar(n);
 }
 
-_puthcar(10);
+_putchar(10);
 }
