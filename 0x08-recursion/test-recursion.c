@@ -3,12 +3,12 @@
 
 int print(int nb)
 {
-if (nb < 0) 
+if (nb < 0)
 {
 return (0);
 }
 printf("%d\n", nb + print(nb - 1));
-nb --;
+nb--;
 return (nb);
 }
 
