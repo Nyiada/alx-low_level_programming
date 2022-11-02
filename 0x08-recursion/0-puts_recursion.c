@@ -21,5 +21,5 @@ _putchar('\n');
 int _putchar(char c)
 {
 printf("%c", c);
-return(0);
+return (0);
 }
